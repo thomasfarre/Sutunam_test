@@ -81,6 +81,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      108: '28rem',
     },
     animation: {
       none: 'none',
@@ -470,7 +471,7 @@ module.exports = {
       '-3/4': '-75%',
       '-full': '-100%',
       '6/10': '60%',
-      '62/100': '62%',
+      '68/100': '68%',
 
     }),
     keyframes: {
