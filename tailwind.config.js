@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     screens: {
       sm: '640px',
-      md: '768px',
+      md: '720px',
       lg: '1024px',
-      xl: '1280px',
+      xl: '1300px',
       '2xl': '1536px',
     },
     colors: {
@@ -68,6 +68,7 @@ module.exports = {
       20: '5rem',
       24: '6rem',
       28: '7rem',
+      30: '7.5rem',
       32: '8rem',
       36: '9rem',
       40: '10rem',
@@ -469,6 +470,8 @@ module.exports = {
       '-3/4': '-75%',
       '-full': '-100%',
       '6/10': '60%',
+      '62/100': '62%',
+
     }),
     keyframes: {
       spin: {
@@ -505,7 +508,8 @@ module.exports = {
       wide: '0.025em',
       wider: '0.05em',
       widest: '0.1em',
-      wider: '0.3125em'
+      wider: '0.3125em',
+      vast: '0.6875em',
     },
     lineHeight: {
       none: '1',
@@ -811,6 +815,8 @@ module.exports = {
       '9/12': '75%',
       '10/12': '83.333333%',
       '11/12': '91.666667%',
+      '39/100': '39%',
+      '42/100': '42%',
       full: '100%',
       screen: '100vw',
       min: 'min-content',
