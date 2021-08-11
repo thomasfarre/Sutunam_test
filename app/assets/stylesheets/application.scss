@@ -15,3 +15,38 @@
  */
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+
+@layer utilities {
+  @responsive {
+    .scrollbars-hidden::-webkit-scrollbar {
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+
+    }
+  }
+}
+
+html {overflow: -moz-scrollbars-none;}
+
+.Nouveau {
+  opacity: 0.6;
+  font-family: MetaPro;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 2.4px;
+  color: #d3b668;
+}
+
+
+.Metapro {
+  font-family: MetaPro;
+}
+
+.Dinot {
+  font-family: DINOT;
+}
