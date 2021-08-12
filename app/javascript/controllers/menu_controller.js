@@ -6,6 +6,6 @@ export default class extends Controller {
 
    toggle() {
      this.toggleableTarget.classList.toggle('hidden')
-     // document.body.classList.toggle('overflow-hidden')
+     document.body.classList.toggle('overflow-hidden')
    }
 }
