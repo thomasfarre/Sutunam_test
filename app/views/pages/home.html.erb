@@ -1,86 +1,14 @@
 <header>
   <div class="py-2.5 pl-5 pr-1 flex bg-green-900 md:justify-center xl:py-2">
-    <span class="text-white text-sm font-medium md:font-semibold md:text-lg">Livraison offerte dès 35€ d'achat*</span>
+    <span class="text-white text-sm font-medium md:text-lg md:font-semibold">Livraison offerte dès 35€ d'achat*</span>
     <button>
-      <svg class="w-8 h-8 text-gray-500 absolute right-0 top-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="a"><path fill="none" d="M0 0h15.999v16.001H0z"/></clipPath></defs><path fill="#154331" d="M0 0h40v40H0z"/><g clip-path="url(#a)" transform="translate(12.001 12)"><path fill="#fff" d="M7.999 8.727L.727 15.999 0 15.271 7.272 8 0 .727l.725-.728 7.274 7.273 7.273-7.273.727.728L8.726 8l7.273 7.271-.727.729z"/></g></svg>
+      <svg class="absolute right-0 top-1.5 w-8 h-8 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><clipPath id="a"><path fill="none" d="M0 0h15.999v16.001H0z"/></clipPath></defs><path fill="#154331" d="M0 0h40v40H0z"/><g clip-path="url(#a)" transform="translate(12.001 12)"><path fill="#fff" d="M7.999 8.727L.727 15.999 0 15.271 7.272 8 0 .727l.725-.728 7.274 7.273 7.273-7.273.727.728L8.726 8l7.273 7.271-.727.729z"/></g></svg>
     </button>
   </div>
 </header>
 
-<div class="pt-4 px-4 md:border-b-2 md:border-green-600 md:border-opacity-60  xl:px-20 xl:flex xl:justify-between xl:items-center md:py-2">
-  <div class="hidden xl:flex xl:space-x-5 xl:text-gray-400 ">
-    <button class="2xl:text-lg text-brownish-100 hover:text-brownish-900">Notre histoire</button>
-    <button class="2xl:text-lg text-brownish-100 hover:text-brownish-900">Nos engagements</button>
-    <button class="2xl:text-lg text-brownish-100 hover:text-brownish-900">Notre charte</button>
-    <button class="2xl:text-lg text-brownish-100 hover:text-brownish-900">Nos actualités</button>
-  </div>
+<%= render "shared/navbar" %>
 
-  <div class="hidden md:pt-3.5 md:flex md:justify-between group-hover md:items-center md:space-x-6 xl:justify-end ">
-    <div class=" md:pb-3.5">
-      <a class="group flex space-x-2 items-center text-brownish-100  xl:px-0">
-        <svg class="w-4 h-4 opacity-60 hover:text-brownish-900" xmlns="http://www.w3.org/2000/svg" width="8.412" height="12.372" viewBox="0 0 8.412 12.372"><defs><clipPath id="jhed0d9kma"><path fill="none" d="M0 0H8.412V12.372H0z"/></clipPath></defs><g clip-path="url(#jhed0d9kma)"><path fill="#646363" d="M2621.7 7370.754a.31.31 0 0 1-.228-.1 13.388 13.388 0 0 1-4-10.3.31.31 0 0 1 .113-.217l2.029-1.62a.281.281 0 0 1 .2-.078h.039a.318.318 0 0 1 .316.292l.292 2.61a.342.342 0 0 1-.154.318l-.557.355a.336.336 0 0 0-.126.4 7.977 7.977 0 0 0 .912 2.939 10.343 10.343 0 0 0 1.369 2.612.323.323 0 0 0 .392.191l.47-.141a.327.327 0 0 1 .355.127l1.547 2.155a.32.32 0 0 1-.065.442.339.339 0 0 1-.2.065zm3.537-.8l-1.5-1.94a.325.325 0 0 1 .14-.507l.113-.05a.319.319 0 0 1 .381.113l1.406 1.965a.329.329 0 0 1-.037.431l-.026.026a.339.339 0 0 1-.227.086.312.312 0 0 1-.253-.121zm-4.146-8.95l-.24-2.205a.327.327 0 0 1 .355-.355l.139.013a.325.325 0 0 1 .292.305l.152 2.166a.321.321 0 0 1-.24.342l-.05.013a.334.334 0 0 1-.084.011.326.326 0 0 1-.326-.287z" transform="translate(-2617.43 -7358.434)"/></g></svg>
-        <span class="text-sm  xl:tracking-wide xl:text-base 3xl:text-lg hover:text-brownish-900">Service client au 04 90 56 91 20</span>
-      </a>
-    </div>
-
-
-    <div class="md:pb-3.5">
-      <div class="flex md:justify-end space-x-5 items-center text-gray-400">
-        <button>
-          <svg class="w-4 h-4 opacity-60" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><defs><clipPath id="6faac9l81a"><path fill="none" d="M0 0H16V16H0z"/></clipPath></defs><g clip-path="url(#6faac9l81a)"><path fill="#646363" d="M138.67 112.553h-14.234a.883.883 0 0 0-.883.883v14.234a.883.883 0 0 0 .883.883h7.664v-6.2h-2.085v-2.415h2.085v-1.781a2.91 2.91 0 0 1 3.106-3.192 17.116 17.116 0 0 1 1.863.1v2.16h-1.279c-1 0-1.2.476-1.2 1.176v1.542h2.391l-.311 2.415h-2.08v6.2h4.077a.883.883 0 0 0 .883-.883v-14.239a.883.883 0 0 0-.88-.883z" transform="translate(-123.553 -112.553)"/></g></svg>
-        </button>
-        <button>
-          <svg class="w-4 h-4 opacity-60" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#646363" d="M4.7 15.953a5.88 5.88 0 0 1-1.943-.371 3.976 3.976 0 0 1-1.416-.924 3.886 3.886 0 0 1-.923-1.417 5.883 5.883 0 0 1-.37-1.941C.01 10.444 0 10.172 0 8s.01-2.445.048-3.3a5.854 5.854 0 0 1 .371-1.94 3.964 3.964 0 0 1 .923-1.417A3.914 3.914 0 0 1 2.759.42 5.851 5.851 0 0 1 4.7.049C5.552.011 5.826 0 8 0s2.444.01 3.3.044a5.9 5.9 0 0 1 1.943.372 3.976 3.976 0 0 1 1.416.924 3.905 3.905 0 0 1 .924 1.416 5.92 5.92 0 0 1 .37 1.944c.038.855.047 1.125.047 3.3s-.009 2.445-.048 3.3a5.875 5.875 0 0 1-.371 1.943 3.979 3.979 0 0 1-.924 1.417 3.905 3.905 0 0 1-1.416.924 5.914 5.914 0 0 1-1.943.371c-.854.039-1.124.048-3.3.048s-2.442-.011-3.298-.05zM4.766 1.49a4.449 4.449 0 0 0-1.486.276 2.438 2.438 0 0 0-.921.6 2.471 2.471 0 0 0-.6.921 4.356 4.356 0 0 0-.273 1.483c-.039.845-.048 1.1-.048 3.233s.009 2.388.048 3.233a4.454 4.454 0 0 0 .276 1.486 2.435 2.435 0 0 0 .6.921 2.482 2.482 0 0 0 .921.6 4.356 4.356 0 0 0 1.486.276c.844.038 1.1.048 3.232.048s2.387-.01 3.231-.048a4.449 4.449 0 0 0 1.486-.276 2.442 2.442 0 0 0 .921-.6 2.478 2.478 0 0 0 .6-.921 4.361 4.361 0 0 0 .276-1.486c.039-.845.048-1.1.048-3.233s-.009-2.388-.048-3.233a4.449 4.449 0 0 0-.276-1.486 2.428 2.428 0 0 0-.6-.921 2.475 2.475 0 0 0-.921-.6 4.356 4.356 0 0 0-1.486-.276c-.844-.039-1.1-.048-3.231-.048s-2.391.01-3.235.051zM3.951 8A4.046 4.046 0 1 1 8 12.05 4.047 4.047 0 0 1 3.951 8zM5.37 8A2.627 2.627 0 1 0 8 5.372 2.627 2.627 0 0 0 5.37 8zm6.147-3.523a.974.974 0 1 1 .689.286.973.973 0 0 1-.689-.286z" transform="translate(0 -0.001)"/></svg>
-        </button>
-        <div class="flex space-x-2 items-center">
-          <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10"><defs><clipPath id="36vsq0pkpa"><path fill="none" d="M0 0H15V10H0z"/></clipPath></defs><g clip-path="url(#36vsq0pkpa)"><path fill="#eee" d="M0 0H5V10H0z" transform="translate(5)"/><path fill="#004891" d="M1 0h4v10H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z"/><path fill="#e21e32" d="M0 0h4a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H0V0z" transform="translate(10)"/></g></svg>
-          <span class="text-sm text-brownish-100">Fr</span>
-          <div class="pl-1">
-            <svg class="w-2 h-2" xmlns="http://www.w3.org/2000/svg" width="8.485" height="8.485" viewBox="0 0 8.485 8.485"><defs><clipPath id="2qu3ozcjra"><path fill="none" d="M0 0H8.485V8.485H0z"/></clipPath></defs><g clip-path="url(#2qu3ozcjra)"><path fill="#646363" d="M5.185 0L6 6l-6-.815z" transform="translate(4.243 -2) rotate(45)"/></g></svg>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<nav class="">
-  <div class="px-5 py-4 flex justify-between items-center 3xl:grid 3xl:place-items-center 3xl:grid-cols-8 items-center md:pb-4 md:pt-0 xl:px-20">
-    <button class="md:flex md:items-center space-x-5">
-      <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16"><defs><clipPath id="clip-path"><path fill="none" d="M0 0h20v16H0z"/></clipPath><style>.cls-3{fill:#646363}</style></defs><g id="menu_icon" clip-path="url(#clip-path)"><path id="Rectangle_9" d="M0 0h15v1H0z" class="cls-3"/><path id="Rectangle_10" d="M0 0h20v1H0z" class="cls-3" transform="translate(0 5)"/><path id="Rectangle_12" d="M0 0h18v1H0z" class="cls-3" transform="translate(0 10)"/><path id="Rectangle_402" d="M0 0h12v1H0z" class="cls-3" transform="translate(0 15)"/></g></svg>
-      <span class="hidden md:flex text-brownish-900 pl-5 tracking-tight md:text-lg xl:hidden">Menu</span>
-      <span class="hidden xl:flex text-brownish-900 tracking-tight md:text-lg xl:text-xl 3xl:text-2xl">Nos produits</span>
-    </button>
-    <button class="xl:flex xl:items-center xl:space-x-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="23.268" height="23.061" viewBox="0 0 23.268 23.061"><defs><clipPath id="v7igbh75ra"><path fill="none" d="M0 0H23.268V23.061H0z"/></clipPath></defs><g clip-path="url(#v7igbh75ra)"><path fill="#646363" d="M2391.107 7434.605a9 9 0 1 1 .695-.717l7.466 7.464-.708.708zM2377 7428a8 8 0 1 0 8-8 8.008 8.008 0 0 0-8 8z" transform="translate(-2376 -7419)"/></g></svg>
-      <span class="hidden xl:flex xl:items-center text-brownish-900 pl-5 tracking-tight xl:text-xl 3xl:text-2xl">Rechercher...</span>
-    </button>
-
-
-    <button class="md:-mt-6 flex items-start 3xl:col-span-4">
-      <svg class="hidden md:flex mt-4 transform rotate-180 opacity-60" xmlns="http://www.w3.org/2000/svg" width="12.711" height="12.71" viewBox="0 0 12.711 12.71"><path fill="#6d9b8d" d="M.159-6.7l8.122-4.618-4.618 8.126-4.37.866z" transform="translate(13.855 4.21) rotate(-135)"/></svg>
-      <div class="bg-white px-4">
-        <%= image_tag "middle_logo.png", class:"w-20 h-20 md:w-28 md:h-28 bg-white xl:w-40 xl:h-40" %>
-      </div>
-      <svg class="hidden md:flex mt-4 opacity-60" xmlns="http://www.w3.org/2000/svg" width="12.711" height="12.71" viewBox="0 0 12.711 12.71"><path fill="#6d9b8d" d="M.159-6.7l8.122-4.618-4.618 8.126-4.37.866z" transform="translate(13.855 4.21) rotate(-135)"/></svg>
-
-    </button>
-
-
-    <button class="md:flex md:items-center">
-      <span class="hidden text-brownish-900 pr-5 tracking-tight xl:flex xl:text-xl 3xl:text-2xl">Me connecter</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22.997" viewBox="0 0 23 22.997"><defs><clipPath id="oufppctraa"><path fill="none" d="M0 0H23V22.997H0z"/></clipPath></defs><g clip-path="url(#oufppctraa)" transform="translate(0)"><path fill="#646363" d="M2329.038 7442zm-1.038-.013a12.221 12.221 0 0 1 3.369-8.5 11.571 11.571 0 0 1 2.526-2 7.5 7.5 0 1 1 11.211 0 11.52 11.52 0 0 1 2.525 2 12.213 12.213 0 0 1 3.369 8.5l-1.025.006a11.118 11.118 0 0 0-5.682-9.723 7.484 7.484 0 0 1-9.583 0 11.119 11.119 0 0 0-5.682 9.728c-.683-.005-1.017-.009-1.028-.015zm5-15.483a6.5 6.5 0 1 0 6.5-6.5 6.508 6.508 0 0 0-6.5 6.496z" transform="translate(-2328 -7419)"/></g></svg>
-    </button>
-    <button class="flex items-start md:items-center">
-      <span class="hidden md:flex text-brownish-900 pr-5 tracking-tight md:text-lg xl:hidden">Panier</span>
-      <span class="hidden xl:flex text-brownish-900 pr-5 tracking-tight md:text-lg xl:text-xl 3xl:text-2xl">Mon panier</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24.501" viewBox="0 0 21 24.501"><defs><clipPath id="s8l3i03coa"><path fill="none" d="M0 0H21V24.501H0z"/></clipPath></defs><g clip-path="url(#s8l3i03coa)" transform="translate(0 0)"><path fill="#646363" d="M2301 7444.5h-21v-19h6v-1a4.5 4.5 0 1 1 9 0v1h6v19zm-20-1h19v-17h-5v3.064a2 2 0 1 1-1 0v-3.064h-7v3.064a2 2 0 1 1-1 0v-3.064h-5zm12.5-12a1 1 0 1 0 1-1 1 1 0 0 0-1 1zm-8 0a1 1 0 1 0 1-1 1 1 0 0 0-1 1zm8.5-6v-1a3.5 3.5 0 0 0-7 0v1z" transform="translate(-2280 -7420)"/></g></svg>
-      <span class="text-xs -ml-1 -mt-3 font-black text-white bg-green-700 rounded-full md:-mt-6 md:ml-1" style="padding: 0 7px 2px;">2</span>
-    </button>
-  </div>
-</nav>
-
-<!-- banner -->
 
 <section class="xl:flex xl:items-center xl:flex-row-reverse xl:flex-grow xl:h-almostscreen">
   <div class="relative bg-yellow-700 h-60 md:h-almostscreen xl:w-1/2">
@@ -97,12 +25,12 @@
       <%= image_tag "duo_hiver.png", class:"w-full object-cover" %>
     </div>
 
-    <div class="absolute flex flex-col left-2/3 mt-6 bg-yellow-800 rounded-full py-7 px-8 md:py-11 md:px-12 md:left-68/100 md:mt-16 xl:left-72/100 3xl:left-6/10">
+    <div class="absolute mt-6 py-7 px-8 flex flex-col left-2/3 bg-yellow-800 rounded-full md:py-11 md:px-12 md:left-68/100 md:mt-16 xl:left-72/100 3xl:left-6/10">
       <span class="line-through text-xs text-gray-100 md:text-lg">5.90€</span>
       <span class="text-white font-bold md:text-xl">3.50€</span>
     </div>
-    <span class="Nouveau absolute flex bottom-2 right-2 bg-yellow-600 px-2 py-1 md:bottom-6 md:right-4 md:px-4 xl:transform xl:-rotate-90 xl:bottom-6/10 xl:right-87/100 xl:text-xl xl:pb-2 2xl:right-9/10">NOUVEAU</span>
-    <div class="absolute flex justify-end space-x-2 bottom-0 left-0 bg-yellow-600 md:pl-30 px-5 xl:-left-24 xl:bg-white xl:pl-5 xl:items-end">
+    <span class="Nouveau absolute bottom-2 right-2 px-2 py-1 flex bg-yellow-600 md:bottom-6 md:right-4 md:px-4 xl:transform xl:-rotate-90 xl:bottom-6/10 xl:right-87/100 xl:text-xl xl:pb-2 2xl:right-9/10">NOUVEAU</span>
+    <div class="absolute bottom-0 left-0 px-5 flex justify-end space-x-2 bg-yellow-600 md:pl-30  xl:-left-24 xl:bg-white xl:pl-5 xl:items-end">
       <svg class="hidden xl:flex w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="20.002" height="8.481" viewBox="0 0 20.002 8.481"><path fill="#646363" d="M2444.383 8029.075l7.911-4.24-1.656 3.762h13.747v1h-13.728l1.637 3.72z" transform="translate(-2444.383 -8024.835)"/></svg>
       <span class="text-yellow-900 text-3xl md:text-5xl ">.</span>
       <span class="text-3xl md:text-5xl">.</span>
@@ -119,7 +47,7 @@
     <span class="text-sm tracking-wide md:text-xl max-w-sm">Duo Crème Mains & Baume lèvres, à l'Huile d'Olive, d'Argan ou Beurre de Karité.</span>
 
     <div class="md:flex items-center space-x-4 xl:flex-col xl:items-start xl:space-x-0">
-      <button class="mt-2 w-full block bg-green-700 text-white font-black py-2 uppercase Metapro tracking-widest text-sm rounded md:w-1/2 md:py-5 hover:bg-green-800 transition duration-300 ease-in-out 3xl:w-1/4">J'en profite !</button>
+      <button class="mt-2 py-2 w-full block bg-green-700 text-white font-black uppercase Metapro tracking-widest text-sm rounded md:w-1/2 md:py-5 hover:bg-green-800 transition duration-300 ease-in-out 3xl:w-1/4">J'en profite !</button>
       <div class="pt-5 flex items-center space-x-4 md:w-1/2 md:pt-0 xl:pt-5">
         <%= image_tag "made_in_france.png", class:"w-13 h-6 xl:w-24 xl:h-10" %>
         <%= image_tag "98.png", class:"w-10 h-8 xl:w-16 xl:h-14" %>
@@ -146,24 +74,24 @@
       <%= image_tag "product5.png", class:"relative inset-0 z-10 xl:w-60" %>
     </div>
 
-    <div class="pt-11  space-y-2 md:grid md:grid-cols-5 md:space-y-0 md:text-center md:place-items-center md:pt-14 md:pb-7 md:-mt-14 md:bg-green-500 xl:pt-20 xl:pb-14 xl:-mt-24 xl:max-w-6xl xl:m-auto 3xl:max-w-7xl">
-      <div class="flex justify-between items-center py-2 px-4 bg-green-500 text-green-900 rounded xl:contents">
+    <div class="pt-11 space-y-2 md:grid md:grid-cols-5 md:space-y-0 md:text-center md:place-items-center md:pt-14 md:pb-7 md:-mt-14 md:bg-green-500 xl:pt-20 xl:pb-14 xl:-mt-24 xl:max-w-6xl xl:m-auto 3xl:max-w-7xl">
+      <div class="py-2 px-4 flex justify-between items-center bg-green-500 text-green-900 rounded xl:contents">
         <span class="text-xl md:font-semibold">Nos soins corps</span>
         <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="7.305" height="13.193" viewBox="0 0 7.305 13.193"><defs><clipPath id="ao4loh7vca"><path fill="none" d="M0 0H7.304V13.193H0z"/></clipPath></defs><g clip-path="url(#ao4loh7vca)" transform="translate(0)"><path fill="#6d9b8d" d="M2760.022 7692.707l5.89-5.89-5.89-5.89.707-.707 6.6 6.6-6.6 6.6z" transform="translate(-2760.022 -7680.22)"/></g></svg>
       </div>
-      <div class="flex justify-between items-center  py-2 px-4 bg-green-500 text-green-900 rounded xl:contents">
+      <div class="py-2 px-4 flex justify-between items-center bg-green-500 text-green-900 rounded xl:contents">
         <span class="text-xl md:font-semibold">Nos soins visage</span>
         <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="7.305" height="13.193" viewBox="0 0 7.305 13.193"><defs><clipPath id="ao4loh7vca"><path fill="none" d="M0 0H7.304V13.193H0z"/></clipPath></defs><g clip-path="url(#ao4loh7vca)" transform="translate(0)"><path fill="#6d9b8d" d="M2760.022 7692.707l5.89-5.89-5.89-5.89.707-.707 6.6 6.6-6.6 6.6z" transform="translate(-2760.022 -7680.22)"/></g></svg>
       </div>
-      <div class="flex justify-between items-center  py-2 px-4 bg-green-500 text-green-900 rounded xl:contents">
+      <div class="py-2 px-4 flex justify-between items-center bg-green-500 text-green-900 rounded xl:contents">
         <span class="text-xl md:font-semibold">Nos soins  capillaires</span>
         <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="7.305" height="13.193" viewBox="0 0 7.305 13.193"><defs><clipPath id="ao4loh7vca"><path fill="none" d="M0 0H7.304V13.193H0z"/></clipPath></defs><g clip-path="url(#ao4loh7vca)" transform="translate(0)"><path fill="#6d9b8d" d="M2760.022 7692.707l5.89-5.89-5.89-5.89.707-.707 6.6 6.6-6.6 6.6z" transform="translate(-2760.022 -7680.22)"/></g></svg>
       </div>
-      <div class="flex justify-between items-center  py-2 px-4 bg-green-500 text-green-900 rounded xl:contents">
+      <div class="py-2 px-4 flex justify-between items-center bg-green-500 text-green-900 rounded xl:contents">
         <span class="text-xl md:font-semibold">Nos douches hydratantes</span>
         <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="7.305" height="13.193" viewBox="0 0 7.305 13.193"><defs><clipPath id="ao4loh7vca"><path fill="none" d="M0 0H7.304V13.193H0z"/></clipPath></defs><g clip-path="url(#ao4loh7vca)" transform="translate(0)"><path fill="#6d9b8d" d="M2760.022 7692.707l5.89-5.89-5.89-5.89.707-.707 6.6 6.6-6.6 6.6z" transform="translate(-2760.022 -7680.22)"/></g></svg>
       </div>
-      <div class="flex justify-between items-center  py-2 px-4 bg-green-500 text-green-900 rounded xl:contents">
+      <div class="py-2 px-4 flex justify-between items-center bg-green-500 text-green-900 rounded xl:contents">
         <span class="text-xl md:font-semibold">Tous nos savons</span>
         <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" width="7.305" height="13.193" viewBox="0 0 7.305 13.193"><defs><clipPath id="ao4loh7vca"><path fill="none" d="M0 0H7.304V13.193H0z"/></clipPath></defs><g clip-path="url(#ao4loh7vca)" transform="translate(0)"><path fill="#6d9b8d" d="M2760.022 7692.707l5.89-5.89-5.89-5.89.707-.707 6.6 6.6-6.6 6.6z" transform="translate(-2760.022 -7680.22)"/></g></svg>
       </div>
@@ -217,11 +145,11 @@
 </section>
 
 <section>
-  <div class="xl:flex xl:items-center xl:flex-row-reverse pt-14 md:pt-40 pb-40">
-    <div class="relative  md:px-5 xl:w-2/3 xl:px-0">
+  <div class="pt-14 pb-40 xl:flex xl:items-center xl:flex-row-reverse md:pt-40">
+    <div class="relative md:px-5 xl:w-2/3 xl:px-0">
       <%= image_tag "banner.png", class:"w-full object-cover max-h-3/4" %>
 
-      <div class="absolute flex justify-end space-x-3 bottom-0 left-0 bg-white pl-4 pr-4 md:hidden xl:flex xl:items-end">
+      <div class="absolute bottom-0 left-0 pl-4 pr-4 flex justify-end space-x-3 bg-white md:hidden xl:flex xl:items-end">
         <svg class="hidden xl:flex w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="20.002" height="8.481" viewBox="0 0 20.002 8.481"><path fill="#646363" d="M2444.383 8029.075l7.911-4.24-1.656 3.762h13.747v1h-13.728l1.637 3.72z" transform="translate(-2444.383 -8024.835)"/></svg>
         <span class="text-yellow-900 text-3xl xl:text-5xl">.</span>
         <span class="text-3xl xl:text-5xl">.</span>
@@ -248,7 +176,7 @@
           <span class="text-3xl">.</span>
         </div>
       </div>
-      <p class="Dinot text-green-900 text-sm pt-2 md:pt-6 md:text-lg md:text-brownish-900">Fabriquée en France, sans silicone ni sulfate, découvrez la gamme capillaire à l'huile d'Argan, réputée pour ses vertus protectrices, et aux extraits de grenade.</p>
+      <p class="Dinot pt-2 text-green-900 text-sm md:pt-6 md:text-lg md:text-brownish-900">Fabriquée en France, sans silicone ni sulfate, découvrez la gamme capillaire à l'huile d'Argan, réputée pour ses vertus protectrices, et aux extraits de grenade.</p>
       <div class="md:flex md:justify-between md:items-center xl:flex-col xl:items-start">
         <div class="pt-3 md:pt-7">
           <button class="Metapro text-sm uppercase font-bold text-white bg-green-700 px-14 whitespace-nowrap py-2.5 rounded blur-2xl md:py-5 hover:bg-green-800 transition duration-300 ease-in-out">Découvrir la gamme</button>
