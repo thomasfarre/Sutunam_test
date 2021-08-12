@@ -11,6 +11,7 @@ module.exports = {
       lg: '1024px',
       xl: '1300px',
       '2xl': '1536px',
+      '3xl': '2500px',
     },
     colors: {
       transparent: 'transparent',
@@ -475,6 +476,8 @@ module.exports = {
       '68/100': '68%',
       '72/100': '72%',
       '87/100': '87%',
+      '9/10': '90%',
+      '93/100': '93%',
 
     }),
     keyframes: {
@@ -545,6 +548,7 @@ module.exports = {
       ...theme('spacing'),
       full: '100%',
       screen: '100vh',
+      '3/4': '75vh',
     }),
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
