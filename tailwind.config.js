@@ -451,6 +451,7 @@ module.exports = {
       '5/6': '83.333333%',
       full: '100%',
       screen: '100vh',
+      almostscreen: '64vh',
     }),
     inset: (theme, { negative }) => ({
       auto: 'auto',
@@ -472,6 +473,8 @@ module.exports = {
       '-full': '-100%',
       '6/10': '60%',
       '68/100': '68%',
+      '72/100': '72%',
+      '87/100': '87%',
 
     }),
     keyframes: {
