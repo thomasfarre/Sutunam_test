@@ -1,0 +1,107 @@
+
+
+<div data-controller="submenu" class="relative ">
+
+
+<!-- SubMenu desktop -->
+  <div data-submenu-target="toggleable" class="hidden absolute inset-0 border-t-2 border-green-600 border-opacity-60 z-50">
+    <svg class="absolute inset-4" data-action="click->submenu#toggle" xmlns="http://www.w3.org/2000/svg" width="20.002" height="8.481" viewBox="0 0 20.002 8.481"><path fill="#646363" d="M2444.383 8029.075l7.911-4.24-1.656 3.762h13.747v1h-13.728l1.637 3.72z" transform="translate(-2444.383 -8024.835)"/></svg>
+    <div class="pt-12 pb-24 px-20 flex justify-between bg-white">
+      <div class="">
+        <div class="flex items-center justify-between">
+          <span class="text-green-900 font-bold text-xl">Visage</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="7.304" height="13.193" viewBox="0 0 7.304 13.193"><defs><clipPath id="byo5oiweta"><path fill="none" d="M0 0H7.304V13.193H0z"/></clipPath></defs><g clip-path="url(#byo5oiweta)" transform="translate(0 0)"><path fill="#646363" d="M2760.022 7692.707l5.89-5.89-5.89-5.89.707-.707 6.6 6.6-6.6 6.6z" transform="translate(-2760.022 -7680.22)"/></g></svg>
+        </div>
+        <div class="pt-6 flex flex-col space-y-4">
+          <span class="text-brownish-900 font-bold text-xl">Corps</span>
+          <span class="text-brownish-900 font-bold text-xl">Capillaire</span>
+          <span class="text-brownish-900 font-bold text-xl">Douche</span>
+          <span class="text-brownish-900 font-bold text-xl">Savon</span>
+          <span class="text-brownish-900 font-bold text-xl">Idées cadeaux</span>
+        </div>
+      </div>
+      <div>
+        <span class="text-green-900 font-bold text-xl">Par type de produit</span>
+        <div class="pt-6 flex flex-col space-y-4">
+          <span class="text-brownish-900 Firasans tracking-wide">Démaquillant & Nettoyant</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Sérum</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Crème de jour</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Soin de nuit</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Soin yeux & lèvres</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Masque & Gommage visage</span>
+        </div>
+      </div>
+      <div
+        <span class="text-green-900 font-bold text-xl">Par besoin</span>
+        <div class="pt-6 flex flex-col space-y-4">
+          <span class="text-brownish-900 Firasans tracking-wide">Hydratant</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Nourrissant</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Anti-âge</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Purifiant</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Nettoyant & Exfoliant</span>
+        </div>
+      </div>
+      <div
+        <span class="text-green-900 font-bold text-xl">Par type de peau</span>
+        <div class="pt-6 flex flex-col space-y-4">
+          <span class="text-brownish-900 Firasans tracking-wide">Peau mature</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Peau très sèche</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Peau mixte à grasse</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Tous types de peaux</span>
+        </div>
+      </div>
+      <div
+        <span class="text-green-900 font-bold text-xl">Par gamme</span>
+        <div class="pt-6 flex flex-col space-y-4">
+          <span class="text-brownish-900 Firasans tracking-wide">Olive</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Argan</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Karité</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Argile</span>
+          <span class="text-brownish-900 Firasans tracking-wide">Anti-pollution</span>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <%= image_tag "submenu_desktop.jpg", class:"w-full object-cover" %>
+        <%= image_tag "submenu_desktop2.jpg", class:"w-full object-cover" %>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Menu desktop -->
+
+  <div  data-largemenu-target="toggleable" class="hidden absolute inset-0 border-t-2 border-green-600 border-opacity-60 z-40">
+    <div class='pb-8 flex justify-between bg-white'>
+      <div class="py-12 px-20 flex flex-col space-y-4 w-1/4">
+        <span data-action="click->submenu#toggle" class="text-green-900 font-bold text-xl">Visage</span>
+        <span class="text-green-900 font-bold text-xl">Corps</span>
+        <span class="text-green-900 font-bold text-xl">Capillaire</span>
+        <span class="text-green-900 font-bold text-xl">Douche</span>
+        <span class="text-green-900 font-bold text-xl">Savon</span>
+        <span class="text-green-900 font-bold text-xl">Idées cadeaux</span>
+        <span class="text-green-900 font-bold text-xl">Promotions</span>
+      </div>
+      <div class="pt-12 pr-20 w-3/4 flex space-x-12 justify-center">
+        <div class="relative w-1/3">
+          <%= image_tag "large_menu1.jpg", class:"absolute inset-0 h-full object-cover" %>
+        </div>
+        <div class="relative w-1/3">
+          <%= image_tag "large_menu2.png", class:"absolute top-0 left-1/2 transform -translate-x-2/4 h-full object-cover"%>
+        </div>
+        <div class="relative w-1/3">
+          <%= image_tag "large_menu3.jpg", class:"absolute inset-0 h-full object-cover" %>
+        </div>
+      </div>
+    </div>
+  <!--   <button data-action="click->largemenu#toggle" class="overflow-hidden fixed w-full h-auto cursor-default focus:outline-none bg-brownish-900 bg-opacity-90"></button>-->
+  </div>
+
+
+</div>
+
+
+
+
